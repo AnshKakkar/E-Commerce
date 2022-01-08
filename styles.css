@@ -1,0 +1,354 @@
+nav {
+  background-color: #191919;
+  z-index: 9;
+  box-shadow: 0 2px 15px 0 #191919;
+  border-bottom: 0.5px solid #ECB365;
+}
+
+.navbar {
+  padding: 10px 30px 10px 50px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ECB365;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-toggler:hover {
+  border-color: #FFB5B5;
+}
+
+.nav-item a {
+  margin: 10px;
+  padding: 0 10px;
+  color: #FFF1BD;
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-item a:hover {
+  color: #FFB5B5;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #ECB365;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236, 179, 101, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.main {
+  margin-top: 50px;
+  background-image: url('images/title-image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+}
+
+.main .main_content {
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  color: #ECB365;
+}
+
+.main .main_content h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main .main_content p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Kurale', serif;
+  color: #FFF1BD;
+  line-height: 1.3;
+  font-size: 1.3rem;
+}
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: #FFAB4C;
+  font-size: 24px;
+  background: #FFF1BD;
+  padding: 11px 26px 11px 26px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F4EEA9;
+  text-decoration: none;
+}
+
+.main .btn a{
+  text-decoration: none;
+  color: #ECB365;
+}
+
+.main .btn a:hover{
+  color: black;
+  transition: all 0.25s ease-in;
+}
+
+.testimonialscara {
+  margin-top: 8.5%;
+  height: 700px;
+  background-color: #191919;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.testimonialscara h1 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ECB365;
+  font-weight: bold;
+}
+
+.carousel-item img {
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.carousel-item h2, em {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  margin: 0 40px;
+  color: #FFF1BD;
+  font-family: 'Kurale', serif;
+}
+
+.carousel-item em {
+  padding-top: 30px;
+  display: block;
+  font-size: 1.3rem;
+}
+
+.white-section {
+  padding: 80px;
+  text-align: center;
+  background-image: url('images/price.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 110vh;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ECB365;
+  font-weight: bold;
+}
+
+.white-section p {
+  color: #FFF1BD;
+  font-size: 1.3rem;
+  font-family: 'Kurale', serif;
+  text-decoration: underline;
+}
+
+.card-header {
+  background-color: #191919;
+  color: #ECB365;
+  padding: 20px;
+}
+
+.card-body {
+  background-color: #232323;
+}
+
+.price-text {
+  color: #ECB365;
+  font-weight: normal;
+}
+
+.card-body p {
+  text-decoration: none;
+}
+
+.card-group {
+  z-index: 0;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 0 #ECB365;
+}
+
+.fd-section {
+  background-color: #191919;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fd-head h2 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ECB365;
+  font-weight: bold;
+}
+
+.fd-head p {
+  color: #FFF1BD;
+  font-size: 1.3rem;
+  font-family: 'Kurale', serif;
+  padding-bottom: 10px;
+}
+
+.feed-form input {
+  width: 30%;
+  margin: 10px;
+  padding: 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.feed-form textarea {
+  width: 30%;
+  margin: 10px;
+  padding: 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.feed-form button {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: #ECB365;
+  font-size: 24px;
+  background: #FFF1BD;
+  padding: 11px 26px 11px 26px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.feed-form button:hover {
+  background: #F4EEA9;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-logo {
+  background-image: url("images/footer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 25vh;
+}
+
+.footer-content p {
+  margin-left: 140px;
+  padding-top: 70px;
+  color: #ECB365;
+  font-size: 1.4rem;
+  font-family: 'Raleway', sans-serif;
+  float: left;
+  display: inline-block;
+}
+
+.icon-footer {
+  padding: 15px;
+  color: #ECB365;
+  border-style: solid;
+  margin-right: 15px;
+  border-width: 1px;
+}
+
+.icon-footer:hover {
+  color: #FFB5B5;
+  transition: all 0.25s ease-in;
+}
+
+.social-links {
+  float: right;
+  margin-top: 55px;
+  margin-right: 90px;
+}
+
+.vid {
+  background-color: #191919;
+  color: #ECB365;
+  padding: 60px;
+  text-align: center;
+}
+
+.vid h2 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ECB365;
+  font-weight: bolder;
+}
+
+.vid p {
+  color: #FFF1BD;
+  font-size: 1.3rem;
+  font-family: 'Kurale', serif;
+  padding: 10px;
+}
+
+.vid-main {
+  padding-top: 50px;
+}
+
+.ovrw-img {
+  text-align: center;
+  background-image: url('images/overview.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.feature-ovrw h2 {
+  font-size: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ECB365;
+  font-weight: bolder;
+  padding: 50px 0 30px 0;
+}
+
+.feature-p li {
+  text-align: left;
+  margin-left: 30%;
+  color: #FFF1BD;
+  margin-bottom: 20px;
+  font-family: 'Kurale', serif;
+  line-height: 1.3;
+  font-size: 1.3rem;
+  justify-content: center;
+}
+
+.pricing-section p {
+  color: #FFF1BD;
+  font-size: 1.3rem;
+  font-family: 'Kurale', serif;
+  text-decoration: underline;
+}
+
+.pricing-section {
+  background-color: #202020;
+  padding: 80px;
+  text-align: center;
+  height: 110vh;
+}
